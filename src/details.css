@@ -1,0 +1,14 @@
+.Arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: rgb(186, 237, 237); */
+}
