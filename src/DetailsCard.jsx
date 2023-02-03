@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
-// import DetailsHeading from './DetailsHeading';
-import "./detailsHeading.css"
+import "./detailsCard.css"
 
 const DetailsCard = ({data}) => {
   const [selectedData, setSelectedData] = useState(null);
@@ -46,7 +45,7 @@ const DetailsCard = ({data}) => {
                 <h4>Phone</h4>
                 <p>{data.phone}</p>
              </div>
-             <div className='Details-Data' style={{marginLeft:"200px"}}>
+             <div className='Details-Data' style={{marginLeft:"275px"}}>
               <h4>Website</h4><p>{data.website}</p>
               <h4>Address</h4><p>{data.address.street} {data.address.suite} {data.address.city} {data.address.zipcode}</p>
               <h4>City</h4><p>{data.address.city}</p>
@@ -55,8 +54,6 @@ const DetailsCard = ({data}) => {
             </div>
         </div>
       )}
-
-      {/* </div>  */}
     </div>
   )
 }
